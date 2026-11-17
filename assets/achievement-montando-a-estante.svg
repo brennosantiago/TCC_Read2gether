@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" fill="none">
+  <defs>
+    <radialGradient id="bg" cx="0" cy="0" r="1" gradientTransform="translate(512 470) rotate(90) scale(550)"><stop stop-color="#F8FCFF"/><stop offset="1" stop-color="#DDEEFF"/></radialGradient>
+    <linearGradient id="shield" x1="512" y1="175" x2="512" y2="835" gradientUnits="userSpaceOnUse"><stop stop-color="#72B9FF"/><stop offset="1" stop-color="#0875D1"/></linearGradient>
+    <linearGradient id="gold" x1="390" y1="250" x2="640" y2="700" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF4BC"/><stop offset=".45" stop-color="#F8D66A"/><stop offset="1" stop-color="#DBA92D"/></linearGradient>
+  </defs>
+  <circle cx="512" cy="512" r="512" fill="url(#bg)"/><circle cx="512" cy="512" r="452" stroke="#8BC5F1" stroke-width="5"/><circle cx="512" cy="512" r="420" stroke="#B5DBF7" stroke-width="2" stroke-dasharray="5 15"/>
+  <path d="M512 110 561 145 620 140 646 193 701 216 705 276 750 314 735 373 767 423 739 476 755 534 713 578 712 638 660 669 642 726 583 741 550 791 490 781 442 811 395 772 336 770 315 714 261 690 263 630 222 586 246 531 226 475 263 429 256 370 303 332 310 273 363 248 385 193 445 190 480 146Z" fill="#91C9F3" opacity=".24"/>
+  <path d="M512 157 553 187 604 184 627 230 675 250 679 302 718 336 705 387 733 430 709 476 723 526 687 564 686 616 641 643 625 692 574 705 545 748 493 740 451 766 410 732 359 730 341 682 294 661 296 609 261 571 282 523 264 474 296 434 290 383 331 350 337 300 383 278 402 230 454 228 485 188Z" fill="url(#shield)" stroke="#F8FCFF" stroke-width="12" stroke-linejoin="round"/>
+  <path d="M512 205 541 228 578 226 594 260 629 275 631 314 660 339 650 376 670 408 652 442 662 478 636 506 635 544 603 564 592 600 555 610 534 641 496 635 466 654 436 629 399 628 386 593 352 578 354 540 328 512 344 477 331 441 354 412 350 375 380 351 385 315 418 300 432 266 469 264 491 235Z" stroke="#BDE4FF" stroke-width="3" opacity=".8"/>
+  <g stroke="#E9F6FF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><path d="M355 575c-58-61-71-139-41-218M669 575c58-61 71-139 41-218"/><path d="M326 527c-30 2-51-13-61-42 31-2 51 12 61 42ZM311 473c-29-8-44-28-46-58 30 5 46 24 46 58ZM310 419c-25-15-34-38-27-67 28 12 37 34 27 67ZM698 527c30 2 51-13 61-42-31-2-51 12-61 42ZM713 473c29-8 44-28 46-58-30 5-46 24-46 58ZM714 419c25-15 34-38 27-67-28 12-37 34-27 67Z" fill="#78B8EC"/></g>
+  <path d="m512 252 13 27 30 4-22 21 6 30-27-15-27 15 6-30-22-21 30-4 13-27Z" fill="url(#gold)" stroke="#FFF4C7" stroke-width="4" stroke-linejoin="round"/>
+  <!-- bookshelf with a first book placed proudly in the center -->
+  <path d="M352 620h320v16H352z" fill="#F7D568" stroke="#075EA8" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M373 636v18m278-18v18" stroke="#075EA8" stroke-width="12" stroke-linecap="round"/>
+  <path d="M391 605V474c0-10 8-18 18-18h45c10 0 18 8 18 18v131h-81Z" fill="#FFFCF1" stroke="#075EA8" stroke-width="11" stroke-linejoin="round"/>
+  <path d="M407 483h48M407 500h48M407 517h48" stroke="#76B9EA" stroke-width="6" stroke-linecap="round"/>
+  <path d="M472 605V441c0-11 9-20 20-20h40c11 0 20 9 20 20v164H472Z" fill="url(#gold)" stroke="#075EA8" stroke-width="11" stroke-linejoin="round"/>
+  <path d="M492 450h40M492 469h40" stroke="#FFF8D9" stroke-width="6" stroke-linecap="round"/>
+  <path d="M512 488c-9-10-23-12-36-9v85c14-3 27 0 36 9 9-9 22-12 36-9v-85c-13-3-27-1-36 9Z" fill="#FFFDF7" stroke="#075EA8" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M512 488v85" stroke="#70B7EB" stroke-width="5"/>
+  <path d="M552 605V482c0-10 8-18 18-18h45c10 0 18 8 18 18v123h-81Z" fill="#EAF6FF" stroke="#075EA8" stroke-width="11" stroke-linejoin="round"/>
+  <path d="M568 491h48M568 508h48M568 525h48" stroke="#76B9EA" stroke-width="6" stroke-linecap="round"/>
+  <path d="M512 392v-22m-11 11h22" stroke="#FFF4C7" stroke-width="7" stroke-linecap="round"/>
+  <path d="M237 704h550l-31 48 31 48H237l31-48-31-48Z" fill="#075EA8" stroke="#F7D568" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M237 704h-35l31 48-31 48h35l31-48-31-48ZM787 704h35l-31 48 31 48h-35l-31-48 31-48Z" fill="#F2C84E" stroke="#D8A82F" stroke-width="4" stroke-linejoin="round"/>
+  <text x="512" y="768" text-anchor="middle" fill="#FFFDF6" font-family="Georgia, 'Times New Roman', serif" font-size="39" font-weight="700" letter-spacing="1" textLength="490" lengthAdjust="spacingAndGlyphs">MONTANDO A ESTANTE</text>
+  <text x="512" y="838" text-anchor="middle" fill="#075EA8" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="3">ADICIONE SEU PRIMEIRO LIVRO</text>
+  <path d="M368 868h91M565 868h91" stroke="#73B5E7" stroke-width="3" stroke-linecap="round"/><circle cx="512" cy="868" r="6" fill="#E6BD4D"/>
+</svg>

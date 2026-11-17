@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" fill="none">
+  <defs>
+    <radialGradient id="bg" cx="0" cy="0" r="1" gradientTransform="translate(512 470) rotate(90) scale(550)"><stop stop-color="#F8FCFF"/><stop offset="1" stop-color="#DDEEFF"/></radialGradient>
+    <linearGradient id="shield" x1="512" y1="175" x2="512" y2="835" gradientUnits="userSpaceOnUse"><stop stop-color="#72B9FF"/><stop offset="1" stop-color="#0875D1"/></linearGradient>
+    <linearGradient id="gold" x1="390" y1="250" x2="640" y2="700" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF4BC"/><stop offset=".45" stop-color="#F8D66A"/><stop offset="1" stop-color="#DBA92D"/></linearGradient>
+  </defs>
+  <circle cx="512" cy="512" r="512" fill="url(#bg)"/><circle cx="512" cy="512" r="452" stroke="#8BC5F1" stroke-width="5"/><circle cx="512" cy="512" r="420" stroke="#B5DBF7" stroke-width="2" stroke-dasharray="5 15"/>
+  <path d="M512 110 561 145 620 140 646 193 701 216 705 276 750 314 735 373 767 423 739 476 755 534 713 578 712 638 660 669 642 726 583 741 550 791 490 781 442 811 395 772 336 770 315 714 261 690 263 630 222 586 246 531 226 475 263 429 256 370 303 332 310 273 363 248 385 193 445 190 480 146Z" fill="#91C9F3" opacity=".24"/>
+  <path d="M512 157 553 187 604 184 627 230 675 250 679 302 718 336 705 387 733 430 709 476 723 526 687 564 686 616 641 643 625 692 574 705 545 748 493 740 451 766 410 732 359 730 341 682 294 661 296 609 261 571 282 523 264 474 296 434 290 383 331 350 337 300 383 278 402 230 454 228 485 188Z" fill="url(#shield)" stroke="#F8FCFF" stroke-width="12" stroke-linejoin="round"/>
+  <path d="M512 205 541 228 578 226 594 260 629 275 631 314 660 339 650 376 670 408 652 442 662 478 636 506 635 544 603 564 592 600 555 610 534 641 496 635 466 654 436 629 399 628 386 593 352 578 354 540 328 512 344 477 331 441 354 412 350 375 380 351 385 315 418 300 432 266 469 264 491 235Z" stroke="#BDE4FF" stroke-width="3" opacity=".8"/>
+  <g stroke="#E9F6FF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><path d="M355 575c-58-61-71-139-41-218M669 575c58-61 71-139 41-218"/><path d="M326 527c-30 2-51-13-61-42 31-2 51 12 61 42ZM311 473c-29-8-44-28-46-58 30 5 46 24 46 58ZM310 419c-25-15-34-38-27-67 28 12 37 34 27 67ZM698 527c30 2 51-13 61-42-31-2-51 12-61 42ZM713 473c29-8 44-28 46-58-30 5-46 24-46 58ZM714 419c25-15 34-38 27-67-28 12-37 34-27 67Z" fill="#78B8EC"/></g>
+  <!-- sunrise of pages and a small star -->
+  <path d="m512 267 12 25 28 4-20 19 5 28-25-13-25 13 5-28-20-19 28-4 12-25Z" fill="url(#gold)" stroke="#FFF4C7" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M398 470c20-45 62-74 114-74s94 29 114 74" stroke="#BFE5FF" stroke-width="10" stroke-linecap="round"/>
+  <path d="M425 456c14-27 45-45 87-45s73 18 87 45" stroke="#FFF3C0" stroke-width="7" stroke-linecap="round"/>
+  <!-- an open book with turning pages -->
+  <path d="M512 472c-42-34-93-45-151-36-14 2-24 14-24 28v129c0 15 13 26 28 24 58-8 106 3 147 35V472Z" fill="#FFFDF7" stroke="#075EA8" stroke-width="14" stroke-linejoin="round"/>
+  <path d="M512 472c42-34 93-45 151-36 14 2 24 14 24 28v129c0 15-13 26-28 24-58-8-106 3-147 35V472Z" fill="#EAF6FF" stroke="#075EA8" stroke-width="14" stroke-linejoin="round"/>
+  <path d="M512 472v180M384 496c36-3 68 5 98 23M384 532c36-3 68 5 98 23M640 496c-36-3-68 5-98 23M640 532c-36-3-68 5-98 23" stroke="#70B7EB" stroke-width="8" stroke-linecap="round"/>
+  <path d="M361 607c57-10 108 1 151 35 43-34 94-45 151-35" stroke="#F1C94F" stroke-width="8" stroke-linecap="round"/>
+  <!-- page count medallion -->
+  <circle cx="512" cy="692" r="48" fill="#F8FCFF" stroke="url(#gold)" stroke-width="9"/>
+  <text x="512" y="702" text-anchor="middle" fill="#075EA8" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700">400</text>
+  <path d="M237 739h550l-31 48 31 48H237l31-48-31-48Z" fill="#075EA8" stroke="#F7D568" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M237 739h-35l31 48-31 48h35l31-48-31-48ZM787 739h35l-31 48 31 48h-35l-31-48 31-48Z" fill="#F2C84E" stroke="#D8A82F" stroke-width="4" stroke-linejoin="round"/>
+  <text x="512" y="803" text-anchor="middle" fill="#FFFDF6" font-family="Georgia, 'Times New Roman', serif" font-size="54" font-weight="700" letter-spacing="3">LEITOR ÁVIDO</text>
+  <path d="M355 875h111M558 875h111" stroke="#73B5E7" stroke-width="3" stroke-linecap="round"/><circle cx="512" cy="875" r="7" fill="#E6BD4D"/>
+  <text x="512" y="921" text-anchor="middle" fill="#075EA8" font-family="Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="4">400 PÁGINAS LIDAS</text>
+</svg>

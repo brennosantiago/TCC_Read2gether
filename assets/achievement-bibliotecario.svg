@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" fill="none">
+  <defs>
+    <radialGradient id="bg" cx="0" cy="0" r="1" gradientTransform="translate(512 490) rotate(90) scale(560)"><stop stop-color="#263B70"/><stop offset=".58" stop-color="#14244F"/><stop offset="1" stop-color="#0A1431"/></radialGradient>
+    <linearGradient id="shield" x1="512" y1="150" x2="512" y2="820" gradientUnits="userSpaceOnUse"><stop stop-color="#274B91"/><stop offset="1" stop-color="#101D46"/></linearGradient>
+    <linearGradient id="gold" x1="375" y1="220" x2="651" y2="760" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF3BC"/><stop offset=".28" stop-color="#F8D76D"/><stop offset=".72" stop-color="#E6B93E"/><stop offset="1" stop-color="#B77A16"/></linearGradient>
+    <linearGradient id="bookblue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#A9DCFF"/><stop offset="1" stop-color="#328DE0"/></linearGradient>
+    <linearGradient id="bookteal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9AE9DE"/><stop offset="1" stop-color="#228F9A"/></linearGradient>
+    <linearGradient id="bookred" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFC28E"/><stop offset="1" stop-color="#D9684E"/></linearGradient>
+    <filter id="glow" x="100" y="80" width="824" height="850" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="22"/></filter>
+  </defs>
+  <circle cx="512" cy="512" r="512" fill="url(#bg)"/>
+  <circle cx="512" cy="512" r="456" stroke="#D8B958" stroke-width="4" opacity=".85"/>
+  <circle cx="512" cy="512" r="432" stroke="#9B8B58" stroke-width="2" stroke-dasharray="3 13" opacity=".75"/>
+  <circle cx="512" cy="512" r="399" stroke="#7393CB" stroke-width="2" opacity=".28"/>
+  <!-- radiant achievement halo -->
+  <circle cx="512" cy="476" r="282" fill="#E5B943" opacity=".12" filter="url(#glow)"/>
+  <path d="M512 127 563 164 623 157 649 212 706 234 708 294 754 333 738 393 771 444 742 498 757 557 714 601 712 662 658 694 640 752 580 768 547 819 487 808 439 839 390 799 329 797 308 739 253 714 255 653 213 608 237 550 216 492 254 444 247 383 295 344 301 284 356 258 378 202 439 199 475 154Z" fill="#E0B84D" opacity=".22"/>
+  <path d="M512 162 555 194 606 191 630 237 678 257 681 310 719 343 706 395 735 438 711 484 725 534 689 574 688 626 643 654 627 703 576 716 547 760 495 751 453 778 411 743 359 741 341 693 293 671 295 619 259 580 281 531 263 482 295 442 289 390 331 356 337 305 383 282 403 233 455 231 485 192Z" fill="url(#shield)" stroke="url(#gold)" stroke-width="13" stroke-linejoin="round"/>
+  <path d="M512 207 541 230 578 228 595 262 630 277 632 316 661 341 651 378 671 410 653 444 663 480 637 508 636 546 604 566 593 602 556 612 535 643 497 637 467 656 437 631 400 630 387 595 353 580 355 542 329 514 345 479 332 443 355 414 351 377 381 353 386 317 419 302 433 268 470 266 492 237Z" stroke="#C5D8FF" stroke-width="3" opacity=".58"/>
+  <!-- crown and stars -->
+  <path d="m512 236 12 25 28 4-20 19 5 28-25-13-25 13 5-28-20-19 28-4 12-25Z" fill="url(#gold)" stroke="#FFF2BD" stroke-width="3" stroke-linejoin="round"/>
+  <path d="m401 293 7 14 16 2-12 11 3 16-14-8-14 8 3-16-12-11 16-2 7-14ZM623 293l7 14 16 2-12 11 3 16-14-8-14 8 3-16-12-11 16-2 7-14Z" fill="#F8DE8A"/>
+  <!-- grand library shelves -->
+  <path d="M330 622h364v23H330z" fill="url(#gold)" stroke="#FFF0B0" stroke-width="5"/>
+  <path d="M348 645v20m328-20v20" stroke="#E9C65C" stroke-width="13" stroke-linecap="round"/>
+  <path d="M350 493h324v18H350z" fill="url(#gold)" stroke="#FFF0B0" stroke-width="4"/>
+  <path d="M368 511v111m288-111v111" stroke="#E9C65C" stroke-width="12" stroke-linecap="round"/>
+  <!-- lower row: 10 distinct volumes -->
+  <g stroke="#F9E9AD" stroke-width="3">
+    <path d="M369 600V526q0-8 8-8h19q8 0 8 8v74Z" fill="url(#bookblue)"/><path d="M408 600V514q0-8 8-8h20q8 0 8 8v86Z" fill="url(#bookred)"/><path d="M447 600V532q0-8 8-8h18q8 0 8 8v68Z" fill="url(#bookteal)"/><path d="M484 600V510q0-8 8-8h21q8 0 8 8v90Z" fill="url(#gold)"/><path d="M525 600V522q0-8 8-8h19q8 0 8 8v78Z" fill="#8E7BC5"/><path d="M563 600V508q0-8 8-8h21q8 0 8 8v92Z" fill="url(#bookblue)"/><path d="M604 600V528q0-8 8-8h20q8 0 8 8v72Z" fill="url(#bookred)"/>
+    <path d="M375 539h23m-23 6h23M414 526h24m-24 6h24M453 543h22m-22 6h22M490 522h24m-24 6h24M531 534h23m-23 6h23M569 520h24m-24 6h24M610 540h23m-23 6h23" stroke="#FFF5D0" stroke-width="2"/>
+  </g>
+  <!-- upper row: another 10 volumes -->
+  <g stroke="#F9E9AD" stroke-width="3">
+    <path d="M369 479V402q0-8 8-8h19q8 0 8 8v77Z" fill="#8E7BC5"/><path d="M408 479V414q0-8 8-8h20q8 0 8 8v65Z" fill="url(#bookblue)"/><path d="M447 479V390q0-8 8-8h18q8 0 8 8v89Z" fill="url(#bookred)"/><path d="M484 479V410q0-8 8-8h21q8 0 8 8v69Z" fill="url(#bookteal)"/><path d="M525 479V398q0-8 8-8h19q8 0 8 8v81Z" fill="url(#gold)"/><path d="M563 479V416q0-8 8-8h21q8 0 8 8v71Z" fill="url(#bookred)"/><path d="M604 479V404q0-8 8-8h20q8 0 8 8v75Z" fill="url(#bookblue)"/>
+    <path d="M375 414h23m-23 6h23M414 426h24m-24 6h24M453 402h22m-22 6h22M490 422h24m-24 6h24M531 410h23m-23 6h23M569 428h24m-24 6h24M610 416h23m-23 6h23" stroke="#FFF5D0" stroke-width="2"/>
+  </g>
+  <!-- open book and laurel medallion -->
+  <circle cx="512" cy="681" r="40" fill="#14244F" stroke="url(#gold)" stroke-width="7"/>
+  <path d="M512 668c-10-8-21-10-34-7v32c13-3 24-1 34 7 10-8 21-10 34-7v-32c-13-3-24-1-34 7Z" fill="#FFF9E7" stroke="#E9C65C" stroke-width="4" stroke-linejoin="round"/><path d="M512 668v32" stroke="#77B7E7" stroke-width="3"/>
+  <!-- nameplate -->
+  <path d="M218 736h588l-35 49 35 49H218l35-49-35-49Z" fill="#0B1738" stroke="url(#gold)" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M218 736h-38l34 49-34 49h38l35-49-35-49ZM806 736h38l-34 49 34 49h-38l-35-49 35-49Z" fill="url(#gold)" stroke="#FFE9A1" stroke-width="3" stroke-linejoin="round"/>
+  <text x="512" y="803" text-anchor="middle" fill="#FFF3C1" font-family="Georgia, 'Times New Roman', serif" font-size="48" font-weight="700" letter-spacing="2" textLength="530" lengthAdjust="spacingAndGlyphs">BIBLIOTECÁRIO</text>
+  <path d="M335 871h115m124 0h115" stroke="#D6B44F" stroke-width="3" stroke-linecap="round"/>
+  <path d="m512 857 6 11 13 2-9 9 2 13-12-6-12 6 2-13-9-9 13-2 6-11Z" fill="url(#gold)"/>
+  <text x="512" y="922" text-anchor="middle" fill="#E5EDFF" font-family="Arial, sans-serif" font-size="23" font-weight="700" letter-spacing="3">20 LIVROS • UMA GRANDE COLEÇÃO</text>
+</svg>

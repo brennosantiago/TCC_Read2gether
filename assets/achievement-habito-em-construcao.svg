@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" fill="none">
+  <defs>
+    <radialGradient id="bg" cx="0" cy="0" r="1" gradientTransform="translate(512 475) rotate(90) scale(560)"><stop stop-color="#E5FAF1"/><stop offset=".58" stop-color="#C5EBDD"/><stop offset="1" stop-color="#A8D7C4"/></radialGradient>
+    <linearGradient id="shield" x1="512" y1="160" x2="512" y2="830" gradientUnits="userSpaceOnUse"><stop stop-color="#3DAE8C"/><stop offset="1" stop-color="#126653"/></linearGradient>
+    <linearGradient id="copper" x1="380" y1="230" x2="650" y2="760" gradientUnits="userSpaceOnUse"><stop stop-color="#FFE5B5"/><stop offset=".38" stop-color="#E6A75F"/><stop offset="1" stop-color="#A85F36"/></linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFDF3"/><stop offset="1" stop-color="#E9F2D8"/></linearGradient>
+  </defs>
+  <circle cx="512" cy="512" r="512" fill="url(#bg)"/><circle cx="512" cy="512" r="452" stroke="#4A9C7D" stroke-width="5"/><circle cx="512" cy="512" r="420" stroke="#80BCA0" stroke-width="2" stroke-dasharray="5 15"/>
+  <path d="M512 110 561 145 620 140 646 193 701 216 705 276 750 314 735 373 767 423 739 476 755 534 713 578 712 638 660 669 642 726 583 741 550 791 490 781 442 811 395 772 336 770 315 714 261 690 263 630 222 586 246 531 226 475 263 429 256 370 303 332 310 273 363 248 385 193 445 190 480 146Z" fill="#237E68" opacity=".12"/>
+  <path d="M512 157 553 187 604 184 627 230 675 250 679 302 718 336 705 387 733 430 709 476 723 526 687 564 686 616 641 643 625 692 574 705 545 748 493 740 451 766 410 732 359 730 341 682 294 661 296 609 261 571 282 523 264 474 296 434 290 383 331 350 337 300 383 278 402 230 454 228 485 188Z" fill="url(#shield)" stroke="#F9E3BC" stroke-width="12" stroke-linejoin="round"/>
+  <path d="M512 205 541 228 578 226 594 260 629 275 631 314 660 339 650 376 670 408 652 442 662 478 636 506 635 544 603 564 592 600 555 610 534 641 496 635 466 654 436 629 399 628 386 593 352 578 354 540 328 512 344 477 331 441 354 412 350 375 380 351 385 315 418 300 432 266 469 264 491 235Z" stroke="#BFE8D5" stroke-width="3" opacity=".72"/>
+  <!-- registration laurels -->
+  <g stroke="#E7C18B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><path d="M353 573c-57-58-70-135-43-210M671 573c57-58 70-135 43-210"/><path d="M325 527c-29 1-49-13-59-41 30-2 49 11 59 41ZM311 474c-28-8-43-27-45-56 29 4 44 23 45 56ZM312 421c-24-15-33-37-26-65 27 11 36 33 26 65ZM699 527c29 1 49-13 59-41-30-2-49 11-59 41ZM713 474c28-8 43-27 45-56-29 4-44 23-45 56ZM712 421c24-15 33-37 26-65-27 11-36 33-26 65Z" fill="#DDA26A"/></g>
+  <!-- calendar page -->
+  <path d="M373 399c0-18 15-33 33-33h212c18 0 33 15 33 33v217c0 18-15 33-33 33H406c-18 0-33-15-33-33V399Z" fill="url(#paper)" stroke="#0D594B" stroke-width="14"/>
+  <path d="M373 424h278" stroke="#0D594B" stroke-width="15"/>
+  <path d="M424 351v67M600 351v67" stroke="#E6A75F" stroke-width="18" stroke-linecap="round"/>
+  <path d="m438 522 42 42 87-93" stroke="#279477" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M419 600h185" stroke="#A9CBBB" stroke-width="8" stroke-linecap="round"/>
+  <!-- twenty tally marks as two proud rows -->
+  <g stroke="#F2C48A" stroke-width="7" stroke-linecap="round">
+    <path d="M410 692v20m20-20v20m20-20v20m20-20v20m20-20v20m20-20v20m20-20v20m20-20v20m20-20v20m20-20v20"/>
+    <path d="M410 722v20m20-20v20m20-20v20m20-20v20m20-20v20m20-20v20m20-20v20m20-20v20m20-20v20m20-20v20"/>
+  </g>
+  <path d="M237 762h550l-31 48 31 48H237l31-48-31-48Z" fill="#0D594B" stroke="url(#copper)" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M237 762h-35l31 48-31 48h35l31-48-31-48ZM787 762h35l-31 48 31 48h-35l-31-48 31-48Z" fill="url(#copper)" stroke="#FFE5B5" stroke-width="4" stroke-linejoin="round"/>
+  <text x="512" y="827" text-anchor="middle" fill="#FFF4DD" font-family="Georgia, 'Times New Roman', serif" font-size="39" font-weight="700" letter-spacing="1" textLength="510" lengthAdjust="spacingAndGlyphs">HÁBITO EM CONSTRUÇÃO</text>
+  <path d="M351 896h105M568 896h105" stroke="#428F73" stroke-width="3" stroke-linecap="round"/><circle cx="512" cy="896" r="7" fill="#C17A48"/>
+  <text x="512" y="938" text-anchor="middle" fill="#0D594B" font-family="Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="4">20 LEITURAS REGISTRADAS</text>
+</svg>
